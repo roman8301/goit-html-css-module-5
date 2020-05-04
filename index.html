@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Roboto:wght@300;900&amp;display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HW - module 5</title>
+  </head>
+  <!-- https://www.orano.group/experience/innovation/en
+https://www.cssdesignawards.com/
+ -->
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header container">
+      <nav>
+        <a href="" class="site-logo">mart</a>
+        <ul class="nav-list clearfix">
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">home</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">about us</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">page</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">shop</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">blog</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <main>
+      <!-- slider -->
+      <div class="slider">
+        <div class="slider-image__wrapper">
+          <img
+            class="slider-image"
+            src="img/bg.jpg"
+            alt="Four girls"
+            width="1600"
+            height="600"
+          />
+          <div class="overlay"></div>
+        </div>
+        <div class="slider-content__text container">
+          <h2 class="slider-content__text__title">affordable paris tours</h2>
+          <p class="slider-content__text__description">
+            city yours / tour tickets / tour guides
+          </p>
+        </div>
+        <div class="slider-nav container clearfix">
+          <button class="slider-vav__btn prev">
+            <span class="visually-hidden">prev button</span>
+          </button>
+          <button class="slider-vav__btn next">
+            <span class="visually-hidden">next button</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- collection -->
+      <section class="collection">
+        <div class="container">
+          <h2 class="section-title">new collection</h2>
+          <ul class="collection-list clearfix">
+            <li class="collection-list__item">
+              <a href="#">
+                <img
+                  src="img/1.png"
+                  alt="blue tshirt"
+                  height="282"
+                  width="255"
+                  class="collection-list__item__image"
+                />
+              </a>
+              <!-- <div class="overlay">
+                <div class="product-overlay">
+                  <ul class="action-buttons-list clearfix">
+                    <li class="action-buttons-list-item action-like">
+                      <button class="action-like-button">
+                        <span class="visually-hidden">like</span>
+                      </button>
+                    </li>
+                    <li class="action-buttons-list-item action-compare">
+                      <button class="action-compare-button">
+                        <span class="visually-hidden">like</span>
+                      </button>
+                    </li>
+                    <li class="action-buttons-list-item action-clock">
+                      <button class="action-clock-button">
+                        <span class="visually-hidden">like</span>
+                      </button>
+                    </li>
+                    <li class="action-buttons-list-item action-add">
+                      <button class="action-clock-button">
+                        add to cart
+                        <span class="visually-hidden">like</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div> -->
+              <div class="collection-list__item__wrapper clearfix">
+                <a href="#" class="collection-list__item__link">
+                  <h3 class="collection-list__item__title">blue tshirt</h3>
+                </a>
+                <span class="collection-list__item__price">$26</span>
+              </div>
+            </li>
+            <li class="collection-list__item">
+              <a href="#">
+                <img
+                  src="img/2.png"
+                  alt="Woman tshirt"
+                  height="282"
+                  width="255"
+                  class="collection-list__item__image"
+                />
+              </a>
+              <div class="collection-list__item__wrapper clearfix">
+                <a href="#" class="collection-list__item__link">
+                  <h3 class="collection-list__item__title">woman tshirt</h3>
+                </a>
+                <span class="collection-list__item__price">$31</span>
+              </div>
+            </li>
+            <li class="collection-list__item">
+              <a href="#">
+                <img
+                  src="img/3.png"
+                  alt="Yellow tshirt"
+                  height="282"
+                  width="255"
+                  class="collection-list__item__image"
+                />
+              </a>
+              <div class="collection-list__item__wrapper clearfix">
+                <a href="#" class="collection-list__item__link">
+                  <h3 class="collection-list__item__title">yellow tshirt</h3>
+                </a>
+                <span class="collection-list__item__price">$21</span>
+              </div>
+            </li>
+            <li class="collection-list__item">
+              <a href="#">
+                <img
+                  src="img/4.png"
+                  alt="Cool lingerie"
+                  height="282"
+                  width="255"
+                  class="collection-list__item__image"
+                />
+              </a>
+              <div class="collection-list__item__wrapper clearfix">
+                <a href="#" class="collection-list__item__link">
+                  <h3 class="collection-list__item__title">cool lingerie</h3>
+                </a>
+                <span class="collection-list__item__price">$56</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-content container">
+        All Rights Reserved © Dokan | Designed
+        <a href="#" class="footer-content__link">ThemenGraph</a>
+      </p>
+    </footer>
+  </body>
+</html>
