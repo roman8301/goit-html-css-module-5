@@ -362,8 +362,9 @@ a {
   height: 50px;
   background-image: url('../img/icons/truck.png');
   background-repeat: no-repeat;
-  bottom: -10px;
-  left: 12px;
+  background-position: center;
+  bottom: 0;
+  left: 0;
 }
 /* OVERLAY END */
 
