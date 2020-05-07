@@ -271,8 +271,8 @@ a {
   border: 10px solid rgba(255, 255, 255, 0.55);
   top: 0;
   left: 0;
-  /* visibility: hidden;
-  opacity: 0; */
+  visibility: hidden;
+  opacity: 0;
   background-clip: content-box;
 }
 
@@ -311,8 +311,7 @@ a {
   height: 50px;
 }
 
-.icons-list__item:hover
-/*.icons-button__truck:hover*/ {
+.icons-list__item:hover {
   background-color: #1abc9c;
 }
 
