@@ -244,6 +244,7 @@ a {
   padding-left: 14px;
   font-size: 18px;
   margin: 0;
+  display: block;
 }
 
 .card-list__item__price {
