@@ -230,21 +230,20 @@ a {
   text-transform: uppercase;
 }
 
-.card-list__item__link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  line-height: 32px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .card-list__item__title {
   float: left;
   width: 201px;
   padding-left: 14px;
   font-size: 18px;
   margin: 0;
-  display: block;
+}
+
+.card-list__item__link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 32px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .card-list__item__price {
@@ -261,6 +260,10 @@ a {
 
 .card-list__item:hover .card-list__item__wrapper {
   background-color: #1abc9c;
+}
+
+.card-list__item__title:hover {
+  cursor: pointer;
 }
 
 /* OVERLAY START */
